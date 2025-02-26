@@ -870,6 +870,13 @@ section.home-slider {
     .flexslider .slides > li {
         height: 420px;
     }
+    .sourcing li{
+        list-style:lower-roman;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        margin-left: 1.5em;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -883,12 +890,32 @@ section.home-slider {
     .flexslider .slides > li {
         height: 450px;
     }
+    .sourcing li{
+        list-style:lower-roman;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        margin-left: 1.5em;
+    }
+    .sourcing p{
+        margin-left: 1.5em;
+    }
 }
 
 @media all and (max-width: 400px) {
     .slider-content h2 {
         font-size: 24px;
         margin-bottom: 12px;
+    }
+    .sourcing li{
+        list-style:lower-roman;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        margin-left: 1.5em;
+    }
+    .sourcing p{
+        margin-left: 1.5em;
     }
 }
 .card p:nth-child(2) {
